@@ -1,4 +1,5 @@
-#.travis.yml
-lanaguage: generic
+language: bash
 script:
-	-bash -e ./test.sh
+  - echo "test start"
+  - ./test.sh
+
