@@ -1,4 +1,0 @@
-language: bash
-script
-  - ./kaddai3-test1.sh
-
