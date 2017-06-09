@@ -1,4 +1,4 @@
 language: bash
-script:
-  - echo "test start"
+script
   - ./kaddai3-test1.sh
+
