@@ -1,9 +1,7 @@
-language:bash
+language: bash
 script:
   - echo "test start"
-  - ./kaddai3-test1.sh
-  - ./kaddai3-test2.sh
-  - ./kaddai3-test3.sh
-  - ./kaddda3-test4.sh
-  - echo "test end"
-
+  - bash ./kaddai3-test1.sh
+  - bash ./kaddai3-test2.sh
+  - bash ./kaddai3-test3.sh
+  - bash ./kaddda3-test4.sh
